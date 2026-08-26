@@ -1,15 +1,14 @@
-# Ambiente virtual
-venv/
-
-# Cache do Python
-__pycache__/
 *.py[cod]
-
-# Banco de dados SQLite
+__pycache__/
+*.so
+.Python
+env/
+venv/
+ENV/
 db.sqlite3
-
-# Configurações do VS Code
-.vscode/
-
-# Variáveis de ambiente
+db.sqlite3-journal
 .env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
